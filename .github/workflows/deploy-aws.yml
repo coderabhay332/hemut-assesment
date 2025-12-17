@@ -62,6 +62,6 @@ jobs:
 
     - name: Deployment summary
       run: |
-        echo "🚀 Backend deployed to AWS Ubuntu successfully"
-        echo "📍 Server: ${{ secrets.AWS_HOST }}"
-        echo "✅ Deployment completed"
+        echo " Backend deployed to AWS Ubuntu successfully"
+        echo " Server: ${{ secrets.AWS_HOST }}"
+        echo "Backend deployed to AWS Ubuntu successfully"
