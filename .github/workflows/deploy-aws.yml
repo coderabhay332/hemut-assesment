@@ -50,7 +50,7 @@ jobs:
     - name: Copy files to server
       run: |
         scp backend-deploy.tar.gz ${{ secrets.AWS_USER }}@${{ secrets.AWS_HOST }}:/tmp/
-        scp backend/deploy.sh ${{ secrets.AWS_USER }}@${{ secrets.AWS_HOST }}:/tmp/
+        scp deploy.sh ${{ secrets.AWS_USER }}@${{ secrets.AWS_HOST }}:/tmp/
 
     - name: Deploy on server
       run: |
