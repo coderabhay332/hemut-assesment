@@ -39,19 +39,11 @@ Runs on pushes to main/master branches (production deployment).
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
 pip install -r requirements.txt
 pip install black flake8 pytest pytest-cov
 
-# Format code
-black .
 
-# Lint code
-flake8 .
-
-# Run tests (when tests are added)
-pytest
-```
 
 
 ### GitHub Actions
